@@ -33,3 +33,5 @@ for (let i = 0; i < bikes.length; i++){
     }
 }
 
+console.log("Light weight bike:", lightWeight);
+
