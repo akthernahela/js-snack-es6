@@ -24,8 +24,12 @@ const bikes = [
     },
 ]
 
+//Variabile per il peso minore
+let lightWeight = bikes[0];
 //Trova la bici che pesa meno di tutte nella array
 for (let i = 0; i < bikes.length; i++){
-    const bike = bikes[i];
+    if (bikes[i].weight < lightWeight) {
+        lightWeight = bikes[i].weight;
+    }
 }
 
