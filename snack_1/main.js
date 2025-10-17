@@ -5,7 +5,7 @@ Ogni oggetto descriverà una bici da corsa con le seguenti proprietà: nome e pe
 Stampare a schermo la bici con peso minore.
 */
 
-const bickes = [
+const bikes = [
     {
         id: 1,
         name: 'Mountain bike',
@@ -27,3 +27,9 @@ const bickes = [
         weight: 20,
     },
 ]
+
+console.log(bikes);
+
+for (let i = 0; i < bikes.length; i++){
+    const bike = bikes[i];
+}
