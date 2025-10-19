@@ -19,17 +19,17 @@ const teams = [
         name: "Inter",
         goal: 0,
         fouls: 0,
-    }
+    },
     {
         name: "Milan",
         goal: 0,
         fouls: 0,
-    }
+    },
     {
         name: "Juventus",
         goal: 0,
         fouls: 0,
-    }
+    },
     {
         name: "Brasil",
         goal: 0,
