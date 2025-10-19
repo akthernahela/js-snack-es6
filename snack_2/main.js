@@ -37,3 +37,8 @@ const teams = [
     }
 ]
 console.log('teams');
+
+//Get random number
+const getRandomNumber = (min, max) => {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+};
