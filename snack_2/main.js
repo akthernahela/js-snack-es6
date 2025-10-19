@@ -42,3 +42,9 @@ console.log('teams');
 const getRandomNumber = (min, max) => {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 };
+
+//Ciclo for to scroll the array
+for (let i = 0; i < teams.length; i++) {
+  teams[i].puntiFatti = getRandomNumber(1, 100); //from 1 to 100
+  teams[i].falliSubiti = getRandomNumber(1, 50); //from 1 to 50
+}
