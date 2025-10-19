@@ -51,4 +51,13 @@ for (let i = 0; i < teams.length; i++) {
 console.log('teams');
 
 //New array to push the teams fouls
+let teamsFouls = [];
 
+//Use cycle for to add fouls into the empty array
+for (let i = 0; i < teams.length; i++){
+    const team = teams[i];
+    teamsFouls.push({
+        name: team.name,
+        fouls: team.fouls,
+    });
+};
