@@ -16,7 +16,12 @@ Proprietà:
 
 const teams = [
     {
-        name: "Juventus",
+        name: "Inter",
+        goal: 0,
+        fouls: 0,
+    }
+    {
+        name: "Milan",
         goal: 0,
         fouls: 0,
     }
@@ -26,13 +31,9 @@ const teams = [
         fouls: 0,
     }
     {
-        name: "Juventus",
-        goal: 0,
-        fouls: 0,
-    }
-    {
-        name: "Juventus",
+        name: "Brasil",
         goal: 0,
         fouls: 0,
     }
 ]
+console.log('teams');
