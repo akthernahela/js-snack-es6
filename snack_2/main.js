@@ -36,7 +36,6 @@ const teams = [
         fouls: 0,
     }
 ]
-console.log('teams');
 
 //Get random number
 const getRandomNumber = (min, max) => {
@@ -45,6 +44,11 @@ const getRandomNumber = (min, max) => {
 
 //Ciclo for to scroll the array
 for (let i = 0; i < teams.length; i++) {
-  teams[i].puntiFatti = getRandomNumber(1, 100); //from 1 to 100
-  teams[i].falliSubiti = getRandomNumber(1, 50); //from 1 to 50
-}
+  teams[i].goal = getRandomNumber(1, 100); //from 1 to 100
+  teams[i].fouls = getRandomNumber(1, 50); //from 1 to 50
+};
+
+console.log('teams');
+
+//New array to push the teams fouls
+
