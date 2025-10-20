@@ -48,7 +48,7 @@ for (let i = 0; i < teams.length; i++) {
   teams[i].fouls = getRandomNumber(1, 50); //from 1 to 50
 };
 
-console.log('teams');
+console.log(teams);
 
 //New array to push the teams fouls
 let teamsFouls = [];
